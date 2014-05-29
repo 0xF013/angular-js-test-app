@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ML01",
+    "title": "Summer Launch",
+    "brand": "Vinter's Chip",
+    "quarter": "2",
+    "year": "2011",
+    "usd_potential": "12000",
+    "status": "To Be Launched",
+    "win_confidential": "low"
+  },
+  {
+    "id": "ML02",
+    "title": "Winter Launch",
+    "brand": "Vinter's Chip",
+    "quarter": "4",
+    "year": "2011",
+    "usd_potential": "10000",
+    "status": "To Be Launched",
+    "win_confidential": "high"
+  }
+]

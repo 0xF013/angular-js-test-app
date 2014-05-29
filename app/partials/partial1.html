@@ -1,0 +1,16 @@
+  <button type="button" class="btn btn-primary" ng-click="showPopup()">Add Market Launch</button>
+
+  <div ng-controller="GridController">
+    <div class="gridStyle" ng-grid="gridOptions" ></div>
+    <dl class="summary">
+      <dt>#of Market Launches:</dt>
+      <dd>{{marketLaunches.length}}</dd>
+
+      <dt>Regional Total Amount of Estimated Sales Potential:</dt>
+      <dd>{{getPotentials()["usd"]}} USD</dd>
+
+      <dt>Global Total Amount of Estimated Sales Potential:</dt>
+      <dd>{{getPotentials()["chf"]}} USD</dd>
+
+    </dl>
+  </div>
